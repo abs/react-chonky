@@ -1,7 +1,8 @@
 {
   "name": "root",
-  "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "homepage": "https://chonky.io/",
   "author": {
     "name": "Timur Kuzhagaliyev",
@@ -14,5 +15,8 @@
   },
   "scripts": {
     "build": "cd ./packages/chonky && npm run build && cd ../chonky-icon-fontawesome && npm run build"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
   }
 }
