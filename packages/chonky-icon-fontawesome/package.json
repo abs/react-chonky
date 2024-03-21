@@ -1,8 +1,11 @@
 {
-  "name": "@aperturerobotics/chonky-icon-fontawesome",
+  "name": "@soroker/chonky-icon-fontawesome",
   "version": "0.2.8",
   "description": "FontAwesome icon component for Chonky file browser",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
