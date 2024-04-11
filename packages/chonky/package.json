@@ -1,6 +1,6 @@
 {
   "name": "@soroker/chonky",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "A File Browser component for React",
   "license": "MIT",
   "publishConfig": {
